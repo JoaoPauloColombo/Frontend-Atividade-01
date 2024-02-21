@@ -13,5 +13,5 @@ botao.addEventListener('click', function(event){
         lembrete: lembrete.value,
     }
     lista.push(pessoa)
-    console.log(lista)
+    console.log(lista);
 })
