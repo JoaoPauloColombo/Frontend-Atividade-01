@@ -49,6 +49,17 @@ body {
     margin-bottom: 25px;
 }
 
+.formLogin select {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
 .formLogin input {
     padding: 15px;
     font-size: 14px;
@@ -97,4 +108,8 @@ body {
     width: 300px;
     position: relative;
     top: 20%;
+}
+
+h1{
+    font-family: fantasy;
 }

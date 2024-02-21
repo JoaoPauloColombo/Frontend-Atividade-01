@@ -12,7 +12,7 @@
 <body>
     <div class="page">
         <form method="POST" class="formLogin">
-            <h1>Cadastro</h1>
+            <h1>Cadastro do Produto</h1>
 
             <p>Digite os dados do produto.</p>
 
@@ -23,6 +23,12 @@
             <input id="nome" type="text" placeholder="Digite o Nome do Produto" autofocus="true" />
 
             <label for="Categoria">Categoria</label>
+            <select name="categoria" id="categoria">
+                <option value="beleza">Beleza</option>
+                <option value="saude">Saúde</option>
+                <option value="animais">Animais</option>
+                <option value="automoveis">Automóveis</option>
+            </select>
             <input id="categoria" type="text" placeholder="Digite a categoria do produto" />
 
             <label for="Lembrete">Lembrete</label>
