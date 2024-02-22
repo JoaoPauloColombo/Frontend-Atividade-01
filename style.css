@@ -3,8 +3,11 @@
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background-color: #073f6dde;
+    background-image: url(armazem.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #023047
 }
 
