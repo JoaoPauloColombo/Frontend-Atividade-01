@@ -1,4 +1,3 @@
-/* Victor */
 const botao = document.getElementById("btn");
 
 const lista = []
