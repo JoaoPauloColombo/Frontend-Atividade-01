@@ -1,4 +1,3 @@
-/* Victor */
 const botao = document.getElementById("btn");
 
 const lista = []
@@ -13,7 +12,6 @@ botao.addEventListener('click', function(event){
         valor: valor.value,
         NumProdutos:NumProdutos.value,
         codigoProduto: codigoProduto.value
-
     }
 
     nome.value = ""
