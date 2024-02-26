@@ -12,15 +12,16 @@ botao.addEventListener('click', function(event){
         categoria: categoria.value,
         valor: valor.value,
         NumProdutos:NumProdutos.value,
-        lembrete: lembrete.value
+        codigoProduto: codigoProduto.value
 
     }
 
     nome.value = ""
     login.value = ""
+    categoria.value = ""
     valor.value = ""
     NumProdutos.value = ""
-    lembrete.value = ""
+    codigoProduto.value = ""
 
 
     lista.push(pessoa)
